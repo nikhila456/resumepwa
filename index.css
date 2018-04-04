@@ -1,0 +1,128 @@
+body{
+ background: #ddd;
+}
+.flex-parent{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+.profile{
+ width: 30%;
+ height: auto;
+ background: #fff;
+ margin: 2%;
+ padding :1%;
+ border: 2px solid #000;
+ vertical-align:middle;
+}
+
+.content{
+  width: 70%;
+  height: auto;
+  background: #fff;
+  margin: 2%;
+  padding: 1%;
+  border2px solid #000;
+  border: 2px solid #000;
+  vertical-align:middle;
+}
+img{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+h1{
+  text-align: center;
+  text-transform: capitalize;
+  color: red;
+}
+a{
+  text-decoration: none;
+}
+table{
+  width:95%;
+}
+td{
+  padding: 1%;
+}
+tr:nth-child(even){
+  background: pink;
+}
+tr:nth-child(odd){
+  background: skyblue;
+}
+@media only screen and (min-width:360px) and (max-width:480px){
+  .flex-parent{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  }
+  .profile{
+   width: 100%;
+   height: auto;
+   background: #fff;
+   margin: 2%;
+   padding :1%;
+   border: 2px solid #000;
+   vertical-align:middle;
+  }
+  .content{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid #000;
+    vertical-align:middle;
+}
+@media only screen and (min-width:480px) and (max-width:720px){
+  .flex-parent{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  }
+  .profile{
+   width: 100%;
+   height: auto;
+   background: #fff;
+   margin: 2%;
+   padding :1%;
+   border: 2px solid #000;
+   vertical-align:middle;
+  }
+  .content{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid #000;
+    vertical-align:middle;
+}
+@media only screen and (min-width:760px) and (max-width:1080px){
+  .flex-parent{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  }
+  .profile{
+   width: 50%;
+   height: auto;
+   background: #fff;
+   margin: 2%;
+   padding :1%;
+   border: 2px solid #000;
+   vertical-align:middle;
+  }
+  .content{
+    width: 50%;
+    height: auto;
+    background: #fff;
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid #000;
+    vertical-align:middle;
+}
